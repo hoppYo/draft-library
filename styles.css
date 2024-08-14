@@ -73,6 +73,36 @@
     margin-bottom: 30px;
     text-align: center;
 }
+
+.head {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: green;
+    font-size: 85px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    animation-name: spin;
+    animation-duration: 3s;
+  }
+  @keyframes spin {
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 40px;
+        scale: 9;
+    }
+  }
 .bodyP {
     background-color: grey;
 }
